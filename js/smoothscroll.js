@@ -18,7 +18,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
 
 });
 
-$("a.navbar-brand ul li a[href^='#']").on('click', function(e) {
+$("a.navbar-brand[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
    e.preventDefault();
@@ -38,7 +38,7 @@ $("a.navbar-brand ul li a[href^='#']").on('click', function(e) {
 
 });
 
-$("#back-to-top ul li a[href^='#']").on('click', function(e) {
+$("#back-to-top a[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
    e.preventDefault();
@@ -49,7 +49,7 @@ $("#back-to-top ul li a[href^='#']").on('click', function(e) {
    // animate
    $('html, body').animate({
        scrollTop: $(this.hash).offset().top -50
-     }, 1000, function(){
+     }, 700, function(){
 
        // when done, add hash to url
        // (default click behaviour)
