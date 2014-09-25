@@ -57,6 +57,19 @@ footer {
 	margin-bottom: 10px;
 }
 
+.modal-content button.close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: white;
+	font-size: 20px;
+	width: 40px;
+	opacity: 1;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-mo2-border-radius: 24px;
+}
+
 .btn-lg {
 	font-size: 36px;
 }
